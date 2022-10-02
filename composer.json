@@ -1,2 +1,24 @@
 {
+  "name": "simplerest/framework",
+  "description": "The Simple REST API Framework",
+  "type": "library",
+  "require": {
+    "php": "8.1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Simplerest\\Framework\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dmitriy",
+      "email": "stdimensiy@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev"
 }
