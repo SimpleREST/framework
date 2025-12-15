@@ -1,18 +1,12 @@
 {
   "name": "simplerest/framework",
   "description": "The Simple REST API Framework",
+  "keywords": ["framework", "SimpleREST"],
   "type": "library",
-  "require": {
-    "php": "8.1.6"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "9.5.*"
-  },
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Simplerest\\Framework\\": "src/"
-    }
+  "homepage": "https://simplerest.ru",
+  "support": {
+    "issues": "https://github.com/simplerest/framework/issues",
+    "source": "https://github.com/simplerest/framework"
   },
   "authors": [
     {
@@ -20,5 +14,15 @@
       "email": "stdimensiy@yandex.ru"
     }
   ],
-  "minimum-stability": "dev"
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Simplerest\\Framework\\": "src/"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
