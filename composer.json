@@ -1,7 +1,11 @@
 {
   "name": "simplerest/framework",
   "description": "The Simple REST API Framework",
-  "keywords": ["framework", "SimpleREST"],
+  "keywords": [
+    "framework",
+    "SimpleREST"
+  ],
+  "license": "MIT",
   "type": "library",
   "homepage": "https://simplerest.ru",
   "support": {
@@ -22,7 +26,6 @@
       "Simplerest\\Framework\\": "src/"
     }
   },
-
   "minimum-stability": "dev",
   "prefer-stable": true
 }
